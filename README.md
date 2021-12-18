@@ -1,3 +1,6 @@
+```
+docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+```
 # RabbitMQ Connector
 
 The **RabbitMQ connector** can be used to seamlessly connect to RabbitMQ (http://rabbitmq.com). Robust messaging for applications. Open source and commercially supported.

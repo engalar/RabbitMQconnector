@@ -2,8 +2,6 @@ package restservices.util;
 
 import java.util.HashMap;
 
-import org.json.JSONObject;
-import org.json.JSONArray;
 
 import restservices.RestServices;
 
@@ -14,6 +12,8 @@ import com.mendix.systemwideinterfaces.core.meta.IMetaAssociation.AssociationTyp
 import com.mendix.systemwideinterfaces.core.meta.IMetaObject;
 import com.mendix.systemwideinterfaces.core.meta.IMetaPrimitive;
 import com.mendix.systemwideinterfaces.core.meta.IMetaPrimitive.PrimitiveType;
+import com.mendix.thirdparty.org.json.JSONArray;
+import com.mendix.thirdparty.org.json.JSONObject;
 
 public class JSONSchemaBuilder {
 

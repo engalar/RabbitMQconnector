@@ -19,8 +19,6 @@ import org.apache.commons.httpclient.HttpStatus;
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import org.apache.commons.lang3.exception.ExceptionUtils;
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import restservices.RestServices;
 import restservices.consume.RestConsumeException;
@@ -43,6 +41,9 @@ import com.mendix.m2ee.api.IMxRuntimeRequest;
 import com.mendix.m2ee.api.IMxRuntimeResponse;
 import com.mendix.systemwideinterfaces.core.IContext;
 import com.mendix.systemwideinterfaces.core.ISession;
+import com.mendix.thirdparty.org.json.JSONException;
+import com.mendix.thirdparty.org.json.JSONObject;
+
 import communitycommons.XPath;
 
 public class RestServiceHandler extends RequestHandler{
@@ -247,7 +248,7 @@ public class RestServiceHandler extends RequestHandler{
 
 	@Override
 	public void processRequest(IMxRuntimeRequest req, IMxRuntimeResponse resp,
-			String _) {
+			String _noop) {
 
 		long start = System.currentTimeMillis();
 		

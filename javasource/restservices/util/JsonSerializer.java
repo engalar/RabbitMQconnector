@@ -6,14 +6,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import restservices.RestServices;
-import restservices.proxies.BooleanValue;
-import restservices.proxies.Primitive;
-import restservices.publish.DataService;
-
 import com.mendix.core.Core;
 import com.mendix.core.objectmanagement.member.MendixEnum;
 import com.mendix.core.objectmanagement.member.MendixObjectReference;
@@ -23,6 +15,13 @@ import com.mendix.systemwideinterfaces.core.IMendixIdentifier;
 import com.mendix.systemwideinterfaces.core.IMendixObject;
 import com.mendix.systemwideinterfaces.core.IMendixObjectMember;
 import com.mendix.systemwideinterfaces.core.meta.IMetaObject;
+import com.mendix.thirdparty.org.json.JSONArray;
+import com.mendix.thirdparty.org.json.JSONObject;
+
+import restservices.RestServices;
+import restservices.proxies.BooleanValue;
+import restservices.proxies.Primitive;
+import restservices.publish.DataService;
 
 public class JsonSerializer {
 

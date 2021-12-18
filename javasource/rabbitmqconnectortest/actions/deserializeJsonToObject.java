@@ -9,9 +9,9 @@
 
 package rabbitmqconnectortest.actions;
 
-import org.json.JSONObject;
 import restservices.util.JsonDeserializer;
 import com.mendix.systemwideinterfaces.core.IMendixObject;
+import com.mendix.thirdparty.org.json.JSONObject;
 import com.mendix.systemwideinterfaces.core.IContext;
 import com.mendix.webui.CustomJavaAction;
 

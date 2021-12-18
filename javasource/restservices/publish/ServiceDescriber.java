@@ -1,13 +1,14 @@
 package restservices.publish;
 
 import org.apache.commons.httpclient.HttpStatus;
-import org.json.JSONObject;
 
 import restservices.RestServices;
 import restservices.proxies.DataServiceDefinition;
 import restservices.publish.RestServiceRequest.ResponseType;
 import restservices.util.JSONSchemaBuilder;
 import com.mendix.core.Core;
+import com.mendix.thirdparty.org.json.JSONObject;
+
 import communitycommons.StringUtils;
 
 public class ServiceDescriber {
